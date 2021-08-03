@@ -364,4 +364,59 @@ h4 {
 
 .contenido-centrado {
   max-width: 800px; }
+
+/** UI **/
+.header {
+  background-color: #333333;
+  padding: 1rem 0 3rem 0; }
+
+.footer {
+  background-color: #333333;
+  padding: 1rem 0; }
+  .footer .contenedor-footer {
+    padding-top: 2.5rem; }
+  .footer .copyright {
+    color: #FFFFFF;
+    text-align: center; }
+
+.barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 3rem; }
+  @media (min-width: 768px) {
+    .barra {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+
+@media (min-width: 768px) {
+  .navegacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
+.navegacion a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 2.2rem;
+  display: block;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .navegacion a {
+      margin-right: 2rem;
+      font-size: 1.8rem; }
+      .navegacion a:last-of-type {
+        margin-right: 0; } }
 /*# sourceMappingURL=app.css.map */
