@@ -366,9 +366,39 @@ h4 {
   max-width: 800px; }
 
 /** UI **/
+.inicio {
+  background-image: url(/Proyecto_BienesRaices/src/img/header.jpg); }
+
 .header {
   background-color: #333333;
   padding: 1rem 0 3rem 0; }
+  .header.inicio {
+    background-position: center center;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      .header.inicio {
+        min-height: 70rem; } }
+    @media (min-width: 768px) {
+      .header.inicio .contenido-header {
+        min-height: 70rem; } }
+
+.contenido-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .contenido-header h1 {
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 2;
+    max-width: 60rem; }
 
 .footer {
   background-color: #333333;
