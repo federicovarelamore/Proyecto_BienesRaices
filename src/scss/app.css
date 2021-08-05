@@ -446,7 +446,8 @@ h4 {
 
 .footer {
   background-color: #333333;
-  padding: 1rem 0; }
+  padding: 2.5rem 0;
+  margin-bottom: 0; }
   .footer .contenedor-footer {
     padding-top: 2.5rem; }
   .footer .copyright {
@@ -598,6 +599,9 @@ h4 {
   .entrada-blog:last-of-type {
     margin-bottom: 0; }
 
+.texto-entrada p {
+  margin: 0; }
+
 .texto-entrada a {
   color: #000000;
   display: block;
@@ -619,4 +623,46 @@ h4 {
 
 .texto-entrada span {
   color: #E08709; }
+
+.testimonial {
+  background-color: #71B100;
+  font-size: 2.4rem;
+  padding: 2rem;
+  color: #FFFFFF;
+  margin-bottom: 2rem;
+  border-radius: 2rem; }
+  .testimonial blockquote {
+    padding-left: 5rem;
+    position: relative; }
+    .testimonial blockquote::before {
+      content: '';
+      background-image: url(/Proyecto_BienesRaices/src/img/comilla.svg);
+      background-repeat: no-repeat;
+      width: 6rem;
+      height: 8rem;
+      display: block;
+      position: absolute;
+      left: -2rem;
+      top: -2rem; }
+  .testimonial p {
+    text-align: right;
+    color: #FFFFFF; }
+
+/** Internas **/
+@media (min-width: 768px) {
+  .contenedor-nosotros {
+    display: -ms-grid;
+    display: grid;
+    gap: 2rem;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr); } }
+
+.contenedor-nosotros .informacion-nosotros blockquote {
+  margin: 0;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding-left: 1rem 0 3rem 0; }
+
+.contenedor-nosotros .informacion-nosotros span {
+  font-weight: 700; }
 /*# sourceMappingURL=app.css.map */
