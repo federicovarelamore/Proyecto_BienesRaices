@@ -365,6 +365,38 @@ h4 {
 .contenido-centrado {
   max-width: 800px; }
 
+.alinear-derecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.boton-amarillo {
+  background-color: #E08709;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  display: block; }
+  .boton-amarillo:hover {
+    background-color: #c77808; }
+
+.boton-verde {
+  background-color: #71B100;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  display: inline-block; }
+  .boton-verde:hover {
+    background-color: #619800; }
+
 /** UI **/
 .inicio {
   background-image: url(/Proyecto_BienesRaices/src/img/header.jpg); }
@@ -449,4 +481,62 @@ h4 {
       font-size: 1.8rem; }
       .navegacion a:last-of-type {
         margin-right: 0; } }
+
+@media (min-width: 768px) {
+  .iconos-nosotros {
+    display: -ms-grid;
+    display: grid;
+    gap: 2rem;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr); } }
+
+.icono {
+  text-align: center; }
+  .icono img {
+    height: 10rem; }
+  .icono h3 {
+    text-transform: uppercase; }
+
+@media (min-width: 768px) {
+  .contenedor-anuncios {
+    display: -ms-grid;
+    display: grid;
+    gap: 2rem;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr); } }
+
+.anuncio {
+  background-color: #eeeeee;
+  border: 1px solid #c8c8c8; }
+  .anuncio .contenido-anuncio {
+    padding: 2rem; }
+  .anuncio h3, .anuncio p {
+    margin: 0;
+    text-align: center; }
+  .anuncio .precio {
+    color: #71B100;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center; }
+
+.iconos-caracteristicas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0; }
+  .iconos-caracteristicas li {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .iconos-caracteristicas li img {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 3rem;
+              flex: 0 0 3rem;
+      margin-right: 1rem; }
+    .iconos-caracteristicas li p {
+      font-weight: 900; }
 /*# sourceMappingURL=app.css.map */
