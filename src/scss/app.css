@@ -453,14 +453,6 @@ h4 {
     color: #FFFFFF;
     text-align: center; }
 
-.logoBienesRaices {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start; }
-
 .barra {
   display: -webkit-box;
   display: -ms-flexbox;
