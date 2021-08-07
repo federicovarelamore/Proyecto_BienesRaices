@@ -363,7 +363,7 @@ h4 {
   margin-bottom: 2.5rem; }
 
 .contenido-centrado {
-  max-width: 800px; }
+  max-width: 80rem; }
 
 .alinear-derecha {
   display: -webkit-box;
@@ -381,7 +381,8 @@ h4 {
   padding: 1rem 3rem;
   text-align: center;
   margin-top: 2.5rem;
-  display: block; }
+  display: block;
+  border-radius: 4px; }
   .boton-amarillo-block:hover {
     background-color: #c77808; }
 
@@ -393,7 +394,8 @@ h4 {
   padding: 1rem 3rem;
   text-align: center;
   margin-top: 2.5rem;
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 4px; }
   .boton-amarillo:hover {
     background-color: #c77808; }
 
@@ -405,7 +407,8 @@ h4 {
   padding: 1rem 3rem;
   text-align: center;
   margin-top: 2.5rem;
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 4px; }
   .boton-verde:hover {
     background-color: #619800; }
 
@@ -526,18 +529,19 @@ h4 {
   .anuncio h3, .anuncio p {
     margin: 0;
     text-align: center; }
-  .anuncio .precio {
-    color: #71B100;
-    font-weight: 700;
-    font-size: 3rem;
-    text-align: center; }
+
+.precio {
+  color: #71B100;
+  font-weight: 700;
+  font-size: 3rem; }
 
 .iconos-caracteristicas {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  padding: 0; }
+  padding: 0;
+  max-width: 40rem; }
   .iconos-caracteristicas li {
     -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -664,5 +668,8 @@ h4 {
   padding-left: 1rem 0 3rem 0; }
 
 .contenedor-nosotros .informacion-nosotros span {
+  font-weight: 700; }
+
+.titulo-bold {
   font-weight: 700; }
 /*# sourceMappingURL=app.css.map */

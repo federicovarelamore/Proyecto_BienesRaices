@@ -16,18 +16,19 @@ border: 1px solid darken($gris, 10);
         text-align: center;
         
     }
-    .precio{
-        color: $verde;
-        font-weight: $bold;
-        font-size: 3rem;
-        text-align: center;
-    }
+}
+
+.precio{
+    color: $verde;
+    font-weight: $bold;
+    font-size: 3rem;
 }
 
 .iconos-caracteristicas{
     display: flex;
     list-style: none;
     padding: 0;
+    max-width: 40rem;
     
     li{
         flex: 1;
@@ -42,3 +43,4 @@ border: 1px solid darken($gris, 10);
         }
     }
 }
+

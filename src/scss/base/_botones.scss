@@ -1,13 +1,14 @@
 .boton-amarillo-block{
     @include boton($amarillo, block);
-    
+   border-radius: 4px;
 }
 
 .boton-amarillo{
     @include boton($amarillo, inline-block);
-    
+    border-radius: 4px;
 }
 
 .boton-verde{
     @include boton ($verde, inline-block);
+    border-radius: 4px;
 }
