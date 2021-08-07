@@ -5,11 +5,16 @@
 
     .contenedor-footer{
         padding-top: $separacion /2;
+        
     }
 
     .copyright{
         color: $blanco;
-        text-align: center;
+        text-align: left;
+        margin-bottom: -2rem;
 
     }
 }
+
+
+

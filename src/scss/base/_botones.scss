@@ -1,14 +1,17 @@
 .boton-amarillo-block{
     @include boton($amarillo, block);
    border-radius: 4px;
+    text-transform: uppercase;
 }
 
 .boton-amarillo{
     @include boton($amarillo, inline-block);
     border-radius: 4px;
+    text-transform: uppercase;
 }
 
 .boton-verde{
     @include boton ($verde, inline-block);
     border-radius: 4px;
+    text-transform: uppercase;
 }

@@ -382,7 +382,8 @@ h4 {
   text-align: center;
   margin-top: 2.5rem;
   display: block;
-  border-radius: 4px; }
+  border-radius: 4px;
+  text-transform: uppercase; }
   .boton-amarillo-block:hover {
     background-color: #c77808; }
 
@@ -395,7 +396,8 @@ h4 {
   text-align: center;
   margin-top: 2.5rem;
   display: inline-block;
-  border-radius: 4px; }
+  border-radius: 4px;
+  text-transform: uppercase; }
   .boton-amarillo:hover {
     background-color: #c77808; }
 
@@ -408,7 +410,8 @@ h4 {
   text-align: center;
   margin-top: 2.5rem;
   display: inline-block;
-  border-radius: 4px; }
+  border-radius: 4px;
+  text-transform: uppercase; }
   .boton-verde:hover {
     background-color: #619800; }
 
@@ -455,7 +458,8 @@ h4 {
     padding-top: 2.5rem; }
   .footer .copyright {
     color: #FFFFFF;
-    text-align: center; }
+    text-align: left;
+    margin-bottom: -2rem; }
 
 .barra {
   display: -webkit-box;
@@ -476,27 +480,28 @@ h4 {
           -ms-flex-pack: justify;
               justify-content: space-between; } }
 
-@media (min-width: 768px) {
-  .navegacion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; } }
-
-.navegacion a {
-  color: #FFFFFF;
-  text-decoration: none;
-  font-size: 2.2rem;
-  display: block;
-  text-align: center; }
+.navegacion {
+  text-transform: uppercase; }
   @media (min-width: 768px) {
-    .navegacion a {
-      margin-right: 2rem;
-      font-size: 1.8rem; }
-      .navegacion a:last-of-type {
-        margin-right: 0; } }
+    .navegacion {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+  .navegacion a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 4rem;
+    display: block;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .navegacion a {
+        margin-right: 2rem;
+        font-size: 1.8rem; }
+        .navegacion a:last-of-type {
+          margin-right: 0; } }
 
 @media (min-width: 768px) {
   .iconos-nosotros {
