@@ -19,4 +19,31 @@
         }
     }
 
+    blockquote{
+        color: $blanco;
+    }
+    .resumen-propiedad {
+
+        .icono{
+            filter:invert(100%);
+        }
+        .precio{
+            color: $verde;
+        }
+    }
+    .formulario{
+        legend{
+            color: $blanco;
+        }
+        label, p{
+            color: $gris;
+        }
+        input:not([type="submit"]),
+        textarea,
+        select{
+            background-color: $grisOscuro;
+            color: $blanco;
+            border: 1px solid $grisOscuro;
+        }
+    }
 }

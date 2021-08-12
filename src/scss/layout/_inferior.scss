@@ -5,9 +5,19 @@
             gap: 2rem;
         }
 }
-
+.blog{
+    a{
+        text-decoration: none;
+        color: $negro;
+    }
+}
 .entrada-blog{
     margin-bottom: 2rem;
+    .imagen{
+        img{
+            border-radius: 1rem;
+        }
+    }
     @include tablet{
         display: grid;
         grid-template-columns: 1fr 2fr;
