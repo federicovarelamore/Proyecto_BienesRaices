@@ -458,7 +458,7 @@ h4 {
 
 /** UI **/
 .inicio {
-  background-image: url(/Proyecto_BienesRaices/src/img/header.jpg); }
+  background-image: url(/src/img/header.jpg); }
 
 .header {
   background-color: #333333;
@@ -664,7 +664,7 @@ h4 {
       font-weight: 900; }
 
 .imagen-contacto {
-  background-image: url(/Proyecto_BienesRaices/src/img/encuentra.jpg);
+  background-image: url(/src/img/encuentra.jpg);
   background-position: center center;
   background-size: cover;
   padding: 5rem 0;
@@ -752,7 +752,7 @@ h4 {
     position: relative; }
     .testimonial blockquote::before {
       content: '';
-      background-image: url(/Proyecto_BienesRaices/src/img/comilla.svg);
+      background-image: url(/src/img/comilla.svg);
       background-repeat: no-repeat;
       width: 6rem;
       height: 8rem;
