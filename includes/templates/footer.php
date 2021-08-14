@@ -9,6 +9,6 @@
     </div>
 
     <address>
-        <p class="copyright">Todos los derechos reservados Federico Varela 2021 &copy;</p>
+        <p class="copyright">Todos los derechos reservados Federico Varela <?php echo date('    Y'); ?> &copy;</p>
     </address>
 </footer>

@@ -1,4 +1,10 @@
-<?php include 'includes/templates/header.php'; ?>
+<?php
+
+require 'includes/funciones.php';
+
+
+incluirTemplate('header');
+?>
 
 <main class="contenedor seccion">
     <h2 class="titulo-bold">Casas y Departamentos en Venta</h2>
@@ -160,7 +166,7 @@
 
 
             <div class="contenido-anuncio">
-                <h3>Chalet en barrio privado</h3>
+                <h3>Chalet en Barrio Privado</h3>
                 <p>Importante chalet de dos pisos ubicado en el barrio privado Carmel. Pileta climatizada y
                     quincho para eventos!</p>
                 <p class="precio">U$S 800,000</p>
@@ -228,7 +234,7 @@
     <!--.contenedor-anuncios-->
 </main>
 
-<?php include 'includes/templates/footer.php'; ?>
+<?php incluirTemplate('footer'); ?>
 
 <script src="/src/js/modernizr.js"></script>
 <script src="/src/js/app.js"></script>

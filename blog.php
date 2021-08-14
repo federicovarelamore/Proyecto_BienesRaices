@@ -1,4 +1,10 @@
-<?php include 'includes/templates/header.php'; ?>
+<?php
+
+require 'includes/funciones.php';
+
+
+incluirTemplate('header');
+?>
 
 <main class="contenedor seccion">
     <h1 class="titulo-bold">Nuestro Blog</h1>
@@ -100,10 +106,10 @@
     </article>
 </main>
 
-<?php include 'includes/templates/footer.php'; ?>
+<?php incluirTemplate('footer'); ?>
 
-<script src="/Proyecto_BienesRaices/src/js/modernizr.js"></script>
-<script src="/Proyecto_BienesRaices/src/js/app.js"></script>
+<script src="/src/js/modernizr.js"></script>
+<script src="/src/js/app.js"></script>
 </body>
 
 </html>

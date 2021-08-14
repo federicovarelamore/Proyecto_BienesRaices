@@ -1,4 +1,10 @@
-<?php include 'includes/templates/header.php'; ?>
+<?php
+
+require 'includes/funciones.php';
+
+
+incluirTemplate('header');
+?>
 
 <main class="contenedor seccion contenido-centrado">
     <h1 class="titulo-bold">Casa de Lujo frente al Mar</h1>
@@ -53,7 +59,7 @@
     </div>
 </main>
 
-<?php include 'includes/templates/footer.php'; ?>
+<?php incluirTemplate('footer'); ?>
 
 <script src="/src/js/modernizr.js"></script>
 <script src="/src/js/app.js"></script>
