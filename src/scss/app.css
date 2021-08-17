@@ -827,4 +827,14 @@ h4 {
 
 .contenedor-nosotros .informacion-nosotros span {
   font-weight: 700; }
+
+.alerta {
+  background-color: #a31212;
+  padding: .5rem; }
+  .alerta.error {
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    font-weight: 700; }
 /*# sourceMappingURL=app.css.map */
