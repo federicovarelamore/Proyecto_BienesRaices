@@ -216,7 +216,7 @@ incluirTemplate('header', $inicio = true);
 
             <div class="texto-entrada">
                 <a href="entrada-4.php">
-                    <h4>Una cancha de tennis... ¡En tu casa!</h4>
+                    <h4>Una cancha de tenis... ¡En tu casa!</h4>
                     <p>Escrito el día: <span>03/09/2021</span> por: <span>Admin</span></p>
 
                     <p>
@@ -288,8 +288,7 @@ incluirTemplate('header', $inicio = true);
 
 <?php incluirTemplate('footer'); ?>
 
-<script src="/src/js/modernizr.js"></script>
-<script src="/src/js/app.js"></script>
+
 </body>
 
 </html>

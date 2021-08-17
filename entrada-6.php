@@ -48,8 +48,6 @@ incluirTemplate('header');
 
 <?php incluirTemplate('footer'); ?>
 
-<script src="/src/js/modernizr.js"></script>
-<script src="/src/js/app.js"></script>
 </body>
 
 </html>

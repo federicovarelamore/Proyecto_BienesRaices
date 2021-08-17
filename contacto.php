@@ -60,6 +60,7 @@ incluirTemplate('header');
                 <input type="radio" name="contacto" value="email" id="contactar-email">
             </div>
 
+
             <p>Si eligió teléfono, elija la fecha y la hora</p>
 
             <label for="fecha">Fecha:</label>
@@ -67,6 +68,7 @@ incluirTemplate('header');
 
             <label for="hora">Hora:</label>
             <input type="time" id="hora" min="09:00" max="19:00">
+
 
         </fieldset>
 
@@ -77,8 +79,6 @@ incluirTemplate('header');
 
 <?php incluirTemplate('footer'); ?>
 
-<script src="/src/js/modernizr.js"></script>
-<script src="/src/js/app.js"></script>
 </body>
 
 </html>

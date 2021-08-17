@@ -11,4 +11,6 @@
     <address>
         <p class="copyright">Todos los derechos reservados Federico Varela <?php echo date('    Y'); ?> &copy;</p>
     </address>
+    <script src="/src/js/modernizr.js"></script>
+    <script src="/src/js/app.js"></script>
 </footer>

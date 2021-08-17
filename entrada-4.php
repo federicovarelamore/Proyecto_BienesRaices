@@ -7,7 +7,7 @@ incluirTemplate('header');
 ?>
 
 <main class="contenedor seccion contenido-centrado">
-    <h1 class="titulo-bold">Una cancha de tennis... ¡En tu casa!</h1>
+    <h1 class="titulo-bold">Una cancha de tenis... ¡En tu casa!</h1>
 
     <picture>
         <img loading="lazy" src="/src/img/blog6-1.jpg" alt="Anuncio">
@@ -49,8 +49,7 @@ incluirTemplate('header');
 
 <?php incluirTemplate('footer'); ?>
 
-<script src="/src/js/modernizr.js"></script>
-<script src="/src/js/app.js"></script>
+
 </body>
 
 </html>
