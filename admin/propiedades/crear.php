@@ -6,9 +6,18 @@ require '../../includes/config/database.php';
 
 $db = conectarDB();
 
+
+
 // Arreglo con mensaje de errores
 $errores = [];
 
+$titulo = '';
+$precio = '';
+$descripcion = '';
+$habitaciones = '';
+$wc = '';
+$estacionamiento = '';
+$vendedorId = '';
 
 // Ejecutar el código después de que el usuario envía el formulario
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -76,9 +85,8 @@ require '/laragon/www/Proyecto_BienesRaices/includes/funciones.php';
 
 incluirTemplate('header');
 
-
-
 ?>
+<!--PHP-->
 
 <main class="contenedor seccion">
     <h1>Crear</h1>
@@ -99,16 +107,16 @@ incluirTemplate('header');
             <legend>Información General</legend>
 
             <label for="titulo">Título:</label>
-            <input type="text" id="titulo" name="titulo" placeholder="Ingrese el título de la propiedad">
+            <input type="text" id="titulo" name="titulo" placeholder="Ingrese el título de la propiedad" value="<?php echo $titulo; ?>">
 
             <label for="precio">Precio:</label>
-            <input type="number" id="precio" name="precio" placeholder="Ingrese el precio de la propiedad">
+            <input type="number" id="precio" name="precio" placeholder="Ingrese el precio de la propiedad" value="<?php echo $precio; ?>">
 
             <label for="imagen">Imagen:</label>
             <input type="file" id="imagen" accept="image/jpeg, image/png">
 
             <label for="descripcion">Descripción</label>
-            <textarea id="descripcion" name="descripcion"></textarea>
+            <textarea id="descripcion" name="descripcion"><?php echo $descripcion; ?></textarea>
 
 
         </fieldset>
@@ -117,13 +125,13 @@ incluirTemplate('header');
             <legend>Información de la Propiedad</legend>
 
             <label for="habitaciones">Habitaciones:</label>
-            <input type="number" name="habitaciones" id="habitaciones" placeholder="Ej: 3" min="1" max="13">
+            <input type="number" name="habitaciones" id="habitaciones" placeholder="Ej: 3" min="1" max="13" value="<?php echo $habitaciones; ?>">
 
             <label for="wc">Baños:</label>
-            <input type="number" name="wc" id="wc" placeholder="Ej: 3" min="1" max="13">
+            <input type="number" name="wc" id="wc" placeholder="Ej: 3" min="1" max="13" value="<?php echo $wc; ?>">
 
             <label for="estacionamiento">Estacionamiento:</label>
-            <input type="number" name="estacionamiento" id="habitaciones" placeholder="Ej: 3" min="1" max="13">
+            <input type="number" name="estacionamiento" id="habitaciones" placeholder="Ej: 3" min="1" max="13" value="<?php echo $estacionamiento; ?>">
 
         </fieldset>
 
